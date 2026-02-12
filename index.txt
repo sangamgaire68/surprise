@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Kill previews -->
+    <meta property="og:title" content=" ">
+    <meta property="og:description" content=" ">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary">
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #232526, #414345);
+            color: white;
+            text-align: center;
+        }
+
+        .box {
+            background: rgba(255,255,255,0.08);
+            padding: 40px 30px;
+            border-radius: 20px;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        p {
+            opacity: 0.85;
+            margin-bottom: 30px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 14px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+
+        a:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Hey 😊</h1>
+        <p>I made something for you.<br>Please tap below 💕</p>
+        <a href="Untitled.html">Tap to continue 💖</a>
+    </div>
+</body>
+</html>
