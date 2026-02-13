@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en">
-<head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Sanjita, Will You Be My Valentine? 💕</title>    <meta name="theme-color" content="#f5576c">
+<head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Someone, Will You Be My Valentine? 💕</title>    <meta name="theme-color" content="#f5576c">
     <style>        * {            margin: 0;            padding: 0;            box-sizing: border-box;        }
         body {            font-family: 'Georgia', serif;            min-height: 100vh;            display: flex;            flex-direction: column;            align-items: center;            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);            overflow-y: auto;            padding: 50px 0;        }
         .heart-bg {            position: fixed;            inset: 0;            z-index: 0;            pointer-events: none;        }
@@ -34,12 +34,12 @@
 <body>
     <div class="heart-bg" id="heartBg"></div>
     <div class="container" id="questionBox">        <div class="avatar">            <img src="https://i.giphy.com/media/zZbf6UpZslp3nvFjIR/giphy.gif" alt="Cute">        </div>
-        <h1>Hey Sanjita Poudel 💕</h1>        <p class="subtitle">I have something special to ask you...</p>
-        <h2>Sanjita, will you be my Valentine? 💖</h2>
+        <h1>Hey Someone  💕</h1>        <p class="subtitle">I have something special to ask you...</p>
+        <h2>Someone, will you be my Valentine? 💖</h2>
         <div class="buttons">            <button id="yesBtn">Yes 💗</button>            <button id="noBtn">Press me for No… if you dare! 😈 </button>        </div>    </div>
     <div class="container answer" id="answerBox">        <div class="celebration">🎉💕🎊</div>
         <div class="avatar">            <img src="https://i.giphy.com/media/3rgXBxX4myufzT6N2w/giphy.gif" alt="Happy">        </div>
-        <h1 id="finalTitle">Yayyy Sanjita! 💖</h1>
+        <h1 id="finalTitle">Yayyy Someone! 💖</h1>
         <p id="finalMessage" style="font-size:1.4em; color:#d63384;">            You just made me the happiest person alive 🥰        </p>
         <div class="quote">            "In all the world, there is no heart for me like yours.<br>            In all the world, there is no love for you like mine."<br><br>            — Sangam Gaire        </div>
         <p class="closing">            Every moment with you feels magical.<br>            Thank you for being you 💝<br><br>            <strong>Forever yours,<br>— Sangam Gaire ❤️</strong>        </p>
@@ -101,7 +101,7 @@
             if (window.innerWidth > 600) { 
                 questionBox.style.display = "none";
                 answerBox.style.display = "block";
-                document.getElementById("finalTitle").innerText = "It's Okay Sanjita ❤️";
+                document.getElementById("finalTitle").innerText = "It's Okay Someone ❤️";
                 document.getElementById("finalMessage").innerText = "Even if your answer is no, I’ll still respect you and cherish you the same.";
                 launchConfetti();
             }
@@ -129,5 +129,6 @@
 </body>
 
 </html>
+
 
 
